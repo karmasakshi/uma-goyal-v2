@@ -1,3 +1,4 @@
+import '@styles/global.scss';
 import { AppProps } from "next/app";
 import { FunctionComponent, ReactElement } from "react";
 
