@@ -19,6 +19,7 @@
     "allowUnreachableCode": false,
     "baseUrl": "./",
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
