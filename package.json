@@ -13,8 +13,8 @@
     "release-major": "npx --no-install standard-version --release-as major && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
     "release-minor": "npx --no-install standard-version --release-as minor && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
     "release-patch": "npx --no-install standard-version --release-as patch && git push --follow-tags && git checkout main && git merge development && git push && git checkout development",
-    "add-dependencies": "npm add next react react-dom sass",
-    "remove-dependencies": "npm remove next react react-dom sass",
+    "add-dependencies": "npm add @chakra-ui/react @emotion/react @emotion/styled framer-motion next react react-dom sass",
+    "remove-dependencies": "npm remove @chakra-ui/react @emotion/react @emotion/styled framer-motion next react react-dom sass",
     "add-devDependencies": "npm add --save-dev @types/react cz-conventional-changelog eslint eslint-config-next standard-version typescript",
     "remove-devDependencies": "npm remove @types/react cz-conventional-changelog eslint eslint-config-next standard-version typescript",
     "reinstall-dependencies": "npm run remove-dependencies && npm run remove-devDependencies && npm run add-dependencies && npm run add-devDependencies",
@@ -34,6 +34,10 @@
     }
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "framer-motion": "^4.1.17",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
