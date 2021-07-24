@@ -1,5 +1,5 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import '@styles/global.scss';
+import "@styles/global.scss";
 import { AppProps } from "next/app";
 import { FunctionComponent, ReactElement } from "react";
 

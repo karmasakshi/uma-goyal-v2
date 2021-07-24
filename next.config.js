@@ -5,7 +5,8 @@
  */
 const nextConfig = {
   eslint: {
-    dirs: ["pages"],
+    dirs: ["components", "constants", "interfaces", "pages"],
+    ignoreDuringBuilds: true,
   },
   reactStrictMode: true,
 };
