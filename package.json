@@ -1,7 +1,6 @@
 {
   "name": "uma-goyal-v2",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -28,6 +27,7 @@
   "author": "Karmasakshi Goyal <karmasakshi@users.noreply.github.com> (https://karmasakshi.com)",
   "license": "Unlicense",
   "homepage": "https://github.com/karmasakshi/uma-goyal-v2#readme",
+  "private": true,
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
